@@ -5,6 +5,7 @@ function createBot() {
         host: 'lima.seedloaf.gg', // <-- Mude para o IP do seu Seedloaf (sem a porta)
         port: 57368,                             // <-- Se o Seedloaf te deu uma porta diferente (ex: 12345), mude aqui
         username: 'Bot_AFK_Seedloaf', 
+        auth: 'offline',
         version: "1.21.2"
          
     });
