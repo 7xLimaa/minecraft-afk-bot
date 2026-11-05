@@ -3,9 +3,10 @@ const mineflayer = require('mineflayer');
 function createBot() {
     const bot = mineflayer.createBot({
         host: 'lima.seedloaf.gg', // <-- Mude para o IP do seu Seedloaf (sem a porta)
-        port: 25565,                             // <-- Se o Seedloaf te deu uma porta diferente (ex: 12345), mude aqui
+        port: 27360,                             // <-- Se o Seedloaf te deu uma porta diferente (ex: 12345), mude aqui
         username: 'Bot_AFK_Seedloaf', 
-        version: "26.2"              
+        version: "1.21.2"
+         
     });
 
     bot.on('spawn', () => {
